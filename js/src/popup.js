@@ -8,7 +8,7 @@ body.prepend('<div id="popupBox"><div class="pop_in"><p></p><button tabindex="0"
 //바디 안에 팝업박스를 만들고, 그안에 팝인을 만들고, 그 안에 p태그와 버튼태그를 넣었습니다.
 var popup = $('#popupBox');
 var popIn = popup.children('.pop_in');
-popup.css({position:'fixed', top:0, left:0, zIndex:8000, backgroundColor:'rgba(255,255,255,0.7)',
+popup.css({position:'fixed', top:0, left:0, zIndex:20000, backgroundColor:'rgba(255,255,255,0.7)',
            boxShadow:'0 0.3rem 0.3rem #333', width:'100%', height:'auto', 
            boxSizing:'border-box', padding:'1rem'});
 popIn.css({width:'auto',maxWidth:'960px', margin:'auto'});
